@@ -10,17 +10,17 @@ $(document).ready(function() {
 
 	//URL and name
 	var urls = [{
-		name: 'Website',
-		url: 'https://horefice.github.io'},
+		name: '🌐 | Global',
+		url: 'https://r4-club.com'},
 	{
-		name: 'Resume',
-		url: 'https://horefice.github.io/docs/HOreficeResume.pdf'},
+		name: '🛒 | Store',
+		url: 'https://store.r4-club.com'},
 	{
-		name: 'Blog',
-		url: 'https://horefice.github.io/blog'},
+		name: '🔗 | Linkles',
+		url: 'https://linkles.r4-club.com'},
 	{
-		name: 'RPI',
-		url: 'https://horefice.github.io/rpi'}
+		name: '🤖 | BotList',
+		url: 'https://botlist.s-bg.xyz'}
 	];
 	$(urls).each(function(index,item){
 		$('#status .current-status').append('<li class="'+'current-status-'+item.name+'">'+item.name+'</li>')
